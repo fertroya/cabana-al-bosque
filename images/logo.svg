@@ -1,5 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 70" fill="none" aria-hidden="true">
-  <path d="M20 28 C45 18, 75 38, 100 24 S155 18, 180 30" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-  <text x="20" y="52" fill="white" font-family="Montserrat, sans-serif" font-size="14" font-weight="500" letter-spacing="3">CABAÑA AL BOSQUE</text>
-  <text x="20" y="66" fill="white" font-family="Montserrat, sans-serif" font-size="7" font-weight="400" letter-spacing="2.5" opacity="0.9">DOS VALLES · BARILOCHE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 72" fill="none" aria-hidden="true">
+  <g stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pino izquierdo -->
+    <path d="M8 46 L14 34 M14 34 L20 46 M11 40 L17 28 M17 28 L23 40 M13 44 L13 48" stroke-width="1.15"/>
+    <!-- Pino derecho -->
+    <path d="M54 46 L60 33 M60 33 L66 46 M57 39 L63 26 M63 26 L69 39 M60 44 L60 48" stroke-width="1.15"/>
+    <!-- Casa -->
+    <path d="M26 48 V37.5 H46 V48" stroke-width="1.2"/>
+    <path d="M24 37.5 L36 24 L48 37.5" stroke-width="1.25"/>
+    <path d="M31 48 V42 H41 V48" stroke-width="1.1"/>
+    <path d="M33.5 42 H38.5" stroke-width="1"/>
+    <!-- Suelo -->
+    <path d="M6 48 H70" stroke-width="1" opacity="0.55"/>
+  </g>
+  <text x="78" y="40" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="13.5" font-weight="600" letter-spacing="2.8">CABAÑA AL BOSQUE</text>
+  <text x="78" y="54" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="6.8" font-weight="400" letter-spacing="2.2" opacity="0.88">DOS VALLES · BARILOCHE</text>
 </svg>
