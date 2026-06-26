@@ -29,19 +29,25 @@ function initHeroSlider() {
   const hero = document.querySelector(".hero[data-slides]");
   if (!hero) return;
 
-  const slides = hero.dataset.slides.split(",");
-  let current = 0;
+  const images = hero.dataset.slides.split(",");
+  const slides = hero.querySelectorAll(".hero-slide");
   const bg = hero.querySelector(".hero-bg");
   const prev = hero.querySelector(".hero-prev");
   const next = hero.querySelector(".hero-next");
+  let current = 0;
 
   function show(index) {
     current = (index + slides.length) % slides.length;
-    bg.style.backgroundImage = `url('${slides[current]}')`;
+    bg.style.backgroundImage = `url('${images[current] || images[0]}')`;
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("active", i === current);
+    });
   }
 
   show(0);
-  setInterval(() => show(current + 1), 6000);
+  if (slides.length > 1) {
+    setInterval(() => show(current + 1), 7000);
+  }
 
   prev?.addEventListener("click", () => show(current - 1));
   next?.addEventListener("click", () => show(current + 1));
@@ -59,11 +65,10 @@ function initFaq() {
 }
 
 function initGallery() {
-  const grid = document.querySelector(".gallery-grid");
   const loadBtn = document.querySelector(".load-more");
-  if (!grid || !loadBtn) return;
+  if (!loadBtn) return;
 
-  const items = grid.querySelectorAll(".gallery-item");
+  const items = document.querySelectorAll(".gallery-card");
   const batch = 6;
   let shown = batch;
 
@@ -81,9 +86,7 @@ function initGallery() {
       items[i].classList.remove("hidden");
     }
     shown += batch;
-    if (shown >= items.length) {
-      loadBtn.style.display = "none";
-    }
+    if (shown >= items.length) loadBtn.style.display = "none";
   });
 }
 
@@ -95,9 +98,7 @@ function initLightbox() {
   const close = lightbox.querySelector(".lightbox-close");
   const prev = lightbox.querySelector(".lightbox-prev");
   const next = lightbox.querySelector(".lightbox-next");
-  const sources = [...document.querySelectorAll(".gallery-item img")].map(
-    (el) => el.src
-  );
+  const sources = [...document.querySelectorAll(".gallery-thumb img")].map((el) => el.src);
   let index = 0;
 
   function open(i) {
@@ -112,7 +113,7 @@ function initLightbox() {
     document.body.style.overflow = "";
   }
 
-  document.querySelectorAll(".gallery-item").forEach((item, i) => {
+  document.querySelectorAll(".gallery-thumb").forEach((item, i) => {
     item.addEventListener("click", () => open(i));
   });
 
