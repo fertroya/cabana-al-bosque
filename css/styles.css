@@ -588,6 +588,85 @@ h2 {
   flex-shrink: 0;
 }
 
+/* El Entorno page */
+.entorno-block {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+}
+
+.entorno-block.alt {
+  background: var(--bg-soft);
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.entorno-block.alt .entorno-intro,
+.entorno-block.alt .entorno-gallery {
+  max-width: var(--container);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.entorno-intro {
+  max-width: 720px;
+  margin: 0 auto 2.25rem;
+  text-align: center;
+}
+
+.entorno-intro h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin: 0 0 1rem;
+}
+
+.entorno-intro p {
+  color: var(--text-muted);
+  margin: 0 0 0.75rem;
+  line-height: 1.65;
+}
+
+.entorno-intro p:last-child { margin-bottom: 0; }
+
+.entorno-intro a {
+  color: var(--blue);
+  font-weight: 500;
+}
+
+.entorno-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.entorno-gallery--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.entorno-gallery--2 {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.entorno-card .gallery-thumb {
+  aspect-ratio: 3/2;
+}
+
+.entorno-cta {
+  text-align: center;
+  padding: 3rem 1.5rem 4.5rem;
+  background: var(--white);
+}
+
+.entorno-cta p {
+  color: var(--text-muted);
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+}
+
 /* Gallery page */
 .page-hero {
   padding: 3.5rem 1.5rem 2rem;
@@ -971,6 +1050,8 @@ h2 {
 @media (max-width: 992px) {
   .amenities-row { grid-template-columns: repeat(2, 1fr); }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  .entorno-gallery,
+  .entorno-gallery--3 { grid-template-columns: repeat(2, 1fr); }
   .showcase-grid { grid-template-columns: repeat(2, 1fr); }
   .room-copy { padding: 2.5rem 2rem; }
 }
@@ -989,7 +1070,7 @@ h2 {
     transition: max-height 0.3s;
   }
 
-  .main-nav.open { max-height: 280px; }
+  .main-nav.open { max-height: 340px; }
 
   .main-nav ul {
     flex-direction: column;
@@ -1017,6 +1098,9 @@ h2 {
   .amenities-grid { grid-template-columns: 1fr; }
 
   .gallery-grid { grid-template-columns: 1fr; }
+  .entorno-gallery,
+  .entorno-gallery--3,
+  .entorno-gallery--2 { grid-template-columns: 1fr; }
   .showcase-grid { grid-template-columns: 1fr; }
 
   .footer-inner,
