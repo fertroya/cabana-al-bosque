@@ -37,45 +37,245 @@
       <p>Explorá la cabaña en alta definición: interiores, exteriores y momentos de noche en el bosque.</p>
     </section>
 
-    <div class="pixieset-collections">
-      <a class="pixieset-collection" href="https://cabanaalbosque.pixieset.com/cabaniaalbosqueenbariloche/" target="_blank" rel="noopener">
-        <img src="images/pixieset/cover.jpg" alt="Colección Alquiler Turístico" loading="lazy">
-        <span>Alquiler Turístico</span>
-      </a>
-      <a class="pixieset-collection" href="https://cabanaalbosque.pixieset.com/cabaniaalbosqueenbariloche/nuestracasa/" target="_blank" rel="noopener">
-        <img src="images/pixieset/hogar.jpg" alt="Colección Nuestra casa" loading="lazy">
-        <span>Nuestra casa</span>
-      </a>
-      <a class="pixieset-collection" href="https://cabanaalbosque.pixieset.com/cabaniaalbosqueenbariloche/denoche/" target="_blank" rel="noopener">
-        <img src="images/pixieset/denoche-5889.jpg" alt="Colección De noche" loading="lazy">
-        <span>De noche</span>
-      </a>
-      <a class="pixieset-collection" href="https://cabanaalbosque.pixieset.com/cabaniaalbosqueenbariloche/sociales/" target="_blank" rel="noopener">
-        <img src="images/pixieset/img-6957.jpg" alt="Colección Sociales" loading="lazy">
-        <span>Sociales</span>
-      </a>
-    </div>
-
-    <div class="pixieset-toolbar">
-      <p>Galería interactiva con zoom y descarga. Si no carga el visor, abrila en pantalla completa.</p>
-      <a href="https://cabanaalbosque.pixieset.com/cabaniaalbosqueenbariloche/" class="btn btn-primary" target="_blank" rel="noopener">Abrir galería completa</a>
-    </div>
-
-    <div class="pixieset-embed-wrap">
-      <div class="pixieset-embed">
-        <iframe
-          src="https://cabanaalbosque.pixieset.com/cabaniaalbosqueenbariloche/"
-          title="Galería profesional Cabaña al Bosque en Bariloche"
-          loading="lazy"
-          allowfullscreen
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="gallery-featured" aria-label="Destacados">
+      <div class="gallery-carousel">
+        <div class="gallery-carousel-track">
+          <figure class="gallery-carousel-slide">
+            <img src="images/galeria/cover.jpg" alt="Cabaña al Bosque en Dos Valles" width="1600" height="900" fetchpriority="high">
+            <figcaption>Cabaña al Bosque</figcaption>
+          </figure>
+          <figure class="gallery-carousel-slide">
+            <img src="images/galeria/hogar.jpg" alt="Living luminoso" loading="lazy">
+            <figcaption>Living</figcaption>
+          </figure>
+          <figure class="gallery-carousel-slide">
+            <img src="images/galeria/denoche-5889.jpg" alt="Fachada iluminada de noche" loading="lazy">
+            <figcaption>De noche</figcaption>
+          </figure>
+          <figure class="gallery-carousel-slide">
+            <img src="images/galeria/img-2914.jpg" alt="Patio con parrilla" loading="lazy">
+            <figcaption>Patio y parrilla</figcaption>
+          </figure>
+          <figure class="gallery-carousel-slide">
+            <img src="images/galeria/kingsize.jpg" alt="Dormitorio principal" loading="lazy">
+            <figcaption>Dormitorio principal</figcaption>
+          </figure>
+          <figure class="gallery-carousel-slide">
+            <img src="images/galeria/img-6957.jpg" alt="Entorno verde" loading="lazy">
+            <figcaption>Entorno natural</figcaption>
+          </figure>
+        </div>
+        <button type="button" class="gallery-carousel-btn gallery-carousel-prev" aria-label="Anterior">‹</button>
+        <button type="button" class="gallery-carousel-btn gallery-carousel-next" aria-label="Siguiente">›</button>
+        <div class="gallery-carousel-dots" role="tablist" aria-label="Diapositivas"></div>
       </div>
-    </div>
+    </section>
 
-    <p class="pixieset-note">
-      Fotos por <a href="https://cabanaalbosque.pixieset.com/" target="_blank" rel="noopener">Cabaña al Bosque · Pixieset</a>
-    </p>
+    <nav class="gallery-filters" aria-label="Filtrar fotos">
+      <button type="button" class="gallery-filter is-active" data-filter="all">Todas</button>
+      <button type="button" class="gallery-filter" data-filter="casa">Nuestra casa</button>
+      <button type="button" class="gallery-filter" data-filter="noche">De noche</button>
+      <button type="button" class="gallery-filter" data-filter="exterior">Exterior</button>
+    </nav>
+
+    <section class="gallery-masonry-wrap">
+      <div class="gallery-masonry" id="gallery-grid">
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Living">
+            <img src="images/galeria/hogar.jpg" alt="Living" loading="lazy">
+          </button>
+          <figcaption>Living</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Living con vista">
+            <img src="images/galeria/hogar2.jpg" alt="Living con vista" loading="lazy">
+          </button>
+          <figcaption>Living con vista</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Cocina">
+            <img src="images/galeria/img-9312.jpg" alt="Cocina" loading="lazy">
+          </button>
+          <figcaption>Cocina</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Cocina equipada">
+            <img src="images/galeria/img-9313.jpg" alt="Cocina equipada" loading="lazy">
+          </button>
+          <figcaption>Cocina equipada</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Comedor">
+            <img src="images/galeria/img-9301.jpg" alt="Comedor" loading="lazy">
+          </button>
+          <figcaption>Comedor</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Comedor y living">
+            <img src="images/galeria/img-9298.jpg" alt="Comedor y living" loading="lazy">
+          </button>
+          <figcaption>Comedor y living</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Espacio compartido">
+            <img src="images/galeria/img-9299.jpg" alt="Espacio compartido" loading="lazy">
+          </button>
+          <figcaption>Espacio compartido</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-item--tall" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Dormitorio principal">
+            <img src="images/galeria/kingsize.jpg" alt="Dormitorio principal" loading="lazy">
+          </button>
+          <figcaption>Dormitorio principal</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Dormitorio infantil">
+            <img src="images/galeria/cuarto-chicos.jpg" alt="Dormitorio infantil" loading="lazy">
+          </button>
+          <figcaption>Dormitorio infantil</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Dormitorio">
+            <img src="images/galeria/img-2864.jpg" alt="Dormitorio" loading="lazy">
+          </button>
+          <figcaption>Dormitorio</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Baño">
+            <img src="images/galeria/img-9290.jpg" alt="Baño" loading="lazy">
+          </button>
+          <figcaption>Baño</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Baño con bañera">
+            <img src="images/galeria/bano-tub.jpg" alt="Baño con bañera" loading="lazy">
+          </button>
+          <figcaption>Baño con bañera</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Detalle de baño">
+            <img src="images/galeria/img-9247.jpg" alt="Detalle de baño" loading="lazy">
+          </button>
+          <figcaption>Detalle de baño</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Escritorio">
+            <img src="images/galeria/img-3069.jpg" alt="Escritorio" loading="lazy">
+          </button>
+          <figcaption>Escritorio</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Rincón de lectura">
+            <img src="images/galeria/img-9237.jpg" alt="Rincón de lectura" loading="lazy">
+          </button>
+          <figcaption>Rincón de lectura</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Detalle interior">
+            <img src="images/galeria/img-9257.jpg" alt="Detalle interior" loading="lazy">
+          </button>
+          <figcaption>Detalle interior</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="casa">
+          <button type="button" class="gallery-item-btn" data-caption="Detalle interior">
+            <img src="images/galeria/img-9285.jpg" alt="Detalle interior" loading="lazy">
+          </button>
+          <figcaption>Detalle interior</figcaption>
+        </figure>
+
+        <figure class="gallery-item gallery-item--tall" data-category="noche">
+          <button type="button" class="gallery-item-btn" data-caption="Fachada de noche">
+            <img src="images/galeria/denoche-5889.jpg" alt="Fachada de noche" loading="lazy">
+          </button>
+          <figcaption>Fachada de noche</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="noche">
+          <button type="button" class="gallery-item-btn" data-caption="Iluminación nocturna">
+            <img src="images/galeria/denoche-7651.jpg" alt="Iluminación nocturna" loading="lazy">
+          </button>
+          <figcaption>Iluminación nocturna</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="noche">
+          <button type="button" class="gallery-item-btn" data-caption="Cabaña al anochecer">
+            <img src="images/galeria/denoche-7851.jpg" alt="Cabaña al anochecer" loading="lazy">
+          </button>
+          <figcaption>Cabaña al anochecer</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="noche">
+          <button type="button" class="gallery-item-btn" data-caption="Noche en el bosque">
+            <img src="images/galeria/denoche-9273.jpg" alt="Noche en el bosque" loading="lazy">
+          </button>
+          <figcaption>Noche en el bosque</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="noche">
+          <button type="button" class="gallery-item-btn" data-caption="Ambiente nocturno">
+            <img src="images/galeria/denoche-1.jpg" alt="Ambiente nocturno" loading="lazy">
+          </button>
+          <figcaption>Ambiente nocturno</figcaption>
+        </figure>
+
+        <figure class="gallery-item gallery-item--wide" data-category="exterior">
+          <button type="button" class="gallery-item-btn" data-caption="Cabaña al Bosque">
+            <img src="images/galeria/cover.jpg" alt="Cabaña al Bosque" loading="lazy">
+          </button>
+          <figcaption>Cabaña al Bosque</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <button type="button" class="gallery-item-btn" data-caption="Jardín y entorno">
+            <img src="images/galeria/img-6957.jpg" alt="Jardín y entorno" loading="lazy">
+          </button>
+          <figcaption>Jardín y entorno</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <button type="button" class="gallery-item-btn" data-caption="Espacios exteriores">
+            <img src="images/galeria/img-7173.jpg" alt="Espacios exteriores" loading="lazy">
+          </button>
+          <figcaption>Espacios exteriores</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <button type="button" class="gallery-item-btn" data-caption="Patio y parrilla">
+            <img src="images/galeria/img-2914.jpg" alt="Patio y parrilla" loading="lazy">
+          </button>
+          <figcaption>Patio y parrilla</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <button type="button" class="gallery-item-btn" data-caption="Exterior">
+            <img src="images/galeria/img-037a.jpg" alt="Exterior" loading="lazy">
+          </button>
+          <figcaption>Exterior</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <button type="button" class="gallery-item-btn" data-caption="Entorno natural">
+            <img src="images/galeria/img-08a3.jpg" alt="Entorno natural" loading="lazy">
+          </button>
+          <figcaption>Entorno natural</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <button type="button" class="gallery-item-btn" data-caption="Bosque y cabaña">
+            <img src="images/galeria/img-0048.jpg" alt="Bosque y cabaña" loading="lazy">
+          </button>
+          <figcaption>Bosque y cabaña</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <button type="button" class="gallery-item-btn" data-caption="Vista exterior">
+            <img src="images/galeria/img-b427.jpg" alt="Vista exterior" loading="lazy">
+          </button>
+          <figcaption>Vista exterior</figcaption>
+        </figure>
+      </div>
+    </section>
   </main>
+
+  <div class="lightbox" role="dialog" aria-label="Vista ampliada" aria-hidden="true">
+    <button type="button" class="lightbox-close" aria-label="Cerrar">×</button>
+    <button type="button" class="lightbox-prev" aria-label="Anterior">‹</button>
+    <div class="lightbox-stage">
+      <img src="" alt="">
+      <p class="lightbox-caption"></p>
+      <p class="lightbox-counter" aria-live="polite"></p>
+    </div>
+    <button type="button" class="lightbox-next" aria-label="Siguiente">›</button>
+  </div>
 
   <footer class="site-footer">
     <div class="footer-inner">
