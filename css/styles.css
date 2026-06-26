@@ -434,6 +434,10 @@ h2 {
 .showcase-cta {
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
 }
 
 .section-lead {
@@ -665,6 +669,98 @@ h2 {
   color: var(--text-muted);
   margin: 0 0 1.25rem;
   font-size: 1.05rem;
+}
+
+/* Pixieset gallery */
+.pixieset-collections {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.pixieset-collection {
+  display: block;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: var(--white);
+  transition: transform 0.25s ease;
+}
+
+.pixieset-collection:hover {
+  transform: translateY(-3px);
+}
+
+.pixieset-collection img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.pixieset-collection span {
+  display: block;
+  padding: 0.85rem 1rem;
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-align: center;
+  color: var(--text-dark);
+}
+
+.pixieset-toolbar {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.pixieset-toolbar p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  width: 100%;
+  text-align: center;
+}
+
+.pixieset-embed-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.pixieset-embed {
+  position: relative;
+  width: 100%;
+  min-height: 78vh;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  background: var(--bg-soft);
+}
+
+.pixieset-embed iframe {
+  width: 100%;
+  height: 78vh;
+  min-height: 520px;
+  border: 0;
+}
+
+.pixieset-note {
+  text-align: center;
+  padding: 0 1.5rem 3.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.pixieset-note a {
+  color: var(--blue);
+  font-weight: 500;
 }
 
 /* Gallery page */
@@ -1052,6 +1148,7 @@ h2 {
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .entorno-gallery,
   .entorno-gallery--3 { grid-template-columns: repeat(2, 1fr); }
+  .pixieset-collections { grid-template-columns: repeat(2, 1fr); }
   .showcase-grid { grid-template-columns: repeat(2, 1fr); }
   .room-copy { padding: 2.5rem 2rem; }
 }
@@ -1101,10 +1198,14 @@ h2 {
   .entorno-gallery,
   .entorno-gallery--3,
   .entorno-gallery--2 { grid-template-columns: 1fr; }
+  .pixieset-collections { grid-template-columns: repeat(2, 1fr); }
   .showcase-grid { grid-template-columns: 1fr; }
 
   .footer-inner,
   .contact-layout { grid-template-columns: 1fr; }
+
+  .pixieset-collections { grid-template-columns: 1fr; }
+  .pixieset-embed iframe { min-height: 420px; height: 65vh; }
 
   .whatsapp-float span { display: none; }
 
