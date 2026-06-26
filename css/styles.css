@@ -276,6 +276,20 @@ h2, h3 {
   margin: 0 auto 1.75rem;
 }
 
+.award-section {
+  padding: 0 1.5rem 3rem;
+  background: var(--white);
+  text-align: center;
+}
+
+.award-section img {
+  max-width: 520px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+}
+
 /* Alternating room blocks */
 .room-block {
   display: grid;
