@@ -31,7 +31,7 @@
 
   <main id="main">
     <section class="hero" data-slides="images/photo-01.jpg,images/photo-06.jpg,images/photo-14.jpg">
-      <div class="hero-bg"></div>
+      <div class="hero-bg" style="background-image: url('images/photo-01.jpg')"></div>
       <button class="hero-nav hero-prev" aria-label="Anterior">‹</button>
       <div class="hero-slides">
         <div class="hero-slide active">
@@ -53,51 +53,102 @@
       <button class="hero-nav hero-next" aria-label="Siguiente">›</button>
     </section>
 
-    <section class="intro-band">
-      <h2>Sentite en casa, lejos de casa</h2>
-      <p>Viví la calidez de la Patagonia en cada detalle.</p>
-      <a href="nuestra-casa.html" class="btn btn-primary">Descubrí nuestra casa</a>
-    </section>
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-value">9,9</div>
+        <div class="stat-label">Booking.com</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">★ 4,71</div>
+        <div class="stat-label">Airbnb</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">2 + 1</div>
+        <div class="stat-label">Dormitorios</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">Hasta 5</div>
+        <div class="stat-label">Huéspedes</div>
+      </div>
+    </div>
 
-    <section class="award-section" aria-label="Premio Booking.com Traveller Review Awards 2026">
-      <img
-        src="images/booking-award-2026.png"
-        alt="Booking.com Traveller Review Awards 2026 — Hermosa Cabaña al Bosque en Bariloche, 9,9 de 10"
-        width="1024"
-        height="720"
-        loading="lazy">
-    </section>
+    <div class="trust-band">
+      <img src="images/booking-award-2026.png" alt="Booking.com Traveller Review Awards 2026 — 9,9 de 10" loading="lazy">
+      <div class="trust-copy">
+        <strong>Premio Traveller Review Awards 2026</strong>
+        <p>Hermosa Cabaña al Bosque en Bariloche — reconocida por los viajeros de Booking.com con 9,9 sobre 10.</p>
+      </div>
+    </div>
 
-    <section class="section section-soft text-center">
-      <div class="container">
-        <h2>Todo lo que necesitás para una estadía perfecta en nuestro alojamiento Bariloche</h2>
-        <p class="section-lead">¡Bienvenidos a nuestra casa al sur! Acá venimos a disfrutar de Bariloche con todo resuelto y la tranquilidad de seguridad 24hs.</p>
-        <a href="https://www.airbnb.com.ar/rooms/1107341934099853545" class="btn btn-primary" target="_blank" rel="noopener">Reservá ahora</a>
+    <section class="room-block">
+      <div class="room-media">
+        <img src="images/photo-02.jpg" alt="Interior luminoso de la cabaña" loading="lazy">
+      </div>
+      <div class="room-copy">
+        <span class="section-eyebrow">Bienvenidos</span>
+        <h2>Sentite en casa, lejos de casa</h2>
+        <p>¡Bienvenidos a nuestra casa al sur! Acá venimos a disfrutar de Bariloche con todo resuelto y la tranquilidad de seguridad 24hs. Tenemos nuestro lugar para trabajar y descansar en familia.</p>
+        <p>Viví la calidez de la Patagonia en cada detalle — pileta, gimnasio, senderos y naturaleza a un paso.</p>
+        <a href="nuestra-casa.html" class="btn btn-primary" style="margin-top:0.75rem;width:fit-content;">Descubrí nuestra casa</a>
       </div>
     </section>
 
-    <section class="amenities-section">
-      <div class="container">
+    <section class="photo-showcase">
+      <h2>Conocé los espacios</h2>
+      <p>Espacios pensados para tu comodidad en el corazón del bosque patagónico.</p>
+      <div class="showcase-grid">
+        <a class="showcase-item" href="galeria.html">
+          <img src="images/photo-02.jpg" alt="Living" loading="lazy">
+          <span>Living</span>
+        </a>
+        <a class="showcase-item" href="galeria.html">
+          <img src="images/photo-12.jpg" alt="Cocina" loading="lazy">
+          <span>Cocina</span>
+        </a>
+        <a class="showcase-item" href="galeria.html">
+          <img src="images/photo-04.jpg" alt="Comedor" loading="lazy">
+          <span>Comedor</span>
+        </a>
+        <a class="showcase-item" href="galeria.html">
+          <img src="images/photo-07.jpg" alt="Dormitorio" loading="lazy">
+          <span>Dormitorio</span>
+        </a>
+        <a class="showcase-item" href="galeria.html">
+          <img src="images/photo-09.jpg" alt="Baño" loading="lazy">
+          <span>Baño</span>
+        </a>
+        <a class="showcase-item" href="galeria.html">
+          <img src="images/photo-01.jpg" alt="Exterior" loading="lazy">
+          <span>Exterior</span>
+        </a>
+      </div>
+      <div class="showcase-cta">
+        <a href="galeria.html" class="btn btn-primary">Ver galería completa</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container text-center">
         <h2>Lo que ofrece la casa</h2>
-        <p>Cómodo y acogedor: así imaginamos tu experiencia. Cada rincón de la casa está diseñado para que puedas relajarte y disfrutar.</p>
-        <div class="amenities-row">
-          <div class="amenity-tile">
-            <i class="ph-thin ph-waves" aria-hidden="true"></i>
+        <p class="section-lead">Cómodo y acogedor: cada rincón está pensado para que puedas relajarte y disfrutar.</p>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon"><i class="ph-thin ph-waves" aria-hidden="true"></i></div>
             <h3>Pileta del barrio</h3>
             <p>Acceso a pileta, gimnasio y canchas del country.</p>
           </div>
-          <div class="amenity-tile">
-            <i class="ph-thin ph-tree-evergreen" aria-hidden="true"></i>
+          <div class="feature-card">
+            <div class="icon"><i class="ph-thin ph-tree-evergreen" aria-hidden="true"></i></div>
             <h3>Al bosque</h3>
             <p>Naturaleza patagónica y senderos a tu alrededor.</p>
           </div>
-          <div class="amenity-tile">
-            <i class="ph-thin ph-shield-check" aria-hidden="true"></i>
+          <div class="feature-card">
+            <div class="icon"><i class="ph-thin ph-shield-check" aria-hidden="true"></i></div>
             <h3>Seguridad 24hs</h3>
             <p>Barrio privado con vigilancia permanente.</p>
           </div>
-          <div class="amenity-tile">
-            <i class="ph-thin ph-wifi-high" aria-hidden="true"></i>
+          <div class="feature-card">
+            <div class="icon"><i class="ph-thin ph-wifi-high" aria-hidden="true"></i></div>
             <h3>WiFi</h3>
             <p>Ideal para trabajar y descansar en familia.</p>
           </div>
@@ -105,16 +156,15 @@
       </div>
     </section>
 
-    <section class="room-block">
+    <section class="room-block reverse">
       <div class="room-media">
-        <img src="images/photo-05.jpg" alt="Entorno natural de la cabaña" loading="lazy">
+        <img src="images/photo-08.jpg" alt="Bosque y entorno natural" loading="lazy">
       </div>
       <div class="room-copy soft">
         <span class="section-eyebrow">Bariloche</span>
         <h2>Donde la naturaleza está a un paso...</h2>
-        <p>En un barrio privado con pileta, gimnasio, canchas, senderos y un restaurant parrilla exquisito. A 20 min de Cerro Catedral en invierno y cerca de lagos en verano.</p>
-        <p>¡También contamos con nuestra familia en el barrio! Feliz de ayudarte a disfrutar al máximo tu estadía.</p>
-        <a href="galeria.html" class="btn btn-primary" style="margin-top:0.5rem;width:fit-content;">Ver galería</a>
+        <p>En Club de Campo Dos Valles: pileta, gimnasio, canchas, senderos y restaurant parrilla. A 20 min de Cerro Catedral en invierno y cerca de lagos en verano.</p>
+        <a href="https://www.airbnb.com.ar/rooms/1107341934099853545" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top:0.75rem;width:fit-content;">Reservá ahora</a>
       </div>
     </section>
 
