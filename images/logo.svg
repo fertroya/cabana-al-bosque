@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 72" fill="none" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 72" fill="none" aria-hidden="true">
   <g stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
     <!-- Pino izquierdo -->
     <path d="M8 46 L14 34 M14 34 L20 46 M11 40 L17 28 M17 28 L23 40 M13 44 L13 48" stroke-width="1.15"/>
@@ -12,6 +12,6 @@
     <!-- Suelo -->
     <path d="M6 48 H70" stroke-width="1" opacity="0.55"/>
   </g>
-  <text x="78" y="40" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="13.5" font-weight="600" letter-spacing="2.8">CABAÑA AL BOSQUE</text>
-  <text x="78" y="54" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="6.8" font-weight="400" letter-spacing="2.2" opacity="0.88">DOS VALLES · BARILOCHE</text>
+  <text x="78" y="40" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="13.5" font-weight="600" letter-spacing="2.2">CABAÑA AL BOSQUE</text>
+  <text x="78" y="54" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="6.8" font-weight="400" letter-spacing="1.8" opacity="0.88">DOS VALLES · BARILOCHE</text>
 </svg>
