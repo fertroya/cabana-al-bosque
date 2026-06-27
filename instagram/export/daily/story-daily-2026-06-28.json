@@ -1,10 +1,11 @@
 {
   "id": "story-daily-2026-06-28",
-  "copySource": "ollama",
+  "copySource": "fallback",
   "photo": "galeria/img-9312.jpg",
   "theme": "cabaña",
   "weather": "5° máx · 0° mín · Nublado",
-  "title": "El corazón de la cabaña",
-  "subtitle": "Mientras afuera baja la temperatura, acá el aroma del café y una cocina equipada crean el refugio perfecto.",
-  "eyebrow": "Cabaña al Bosque · domingo 28 jun"
+  "title": "Cocina",
+  "subtitle": "La cocina pide quedarse adentro. Con cielo nublado y 5°, afuera o adentro, la experiencia sigue en Dos Valles.",
+  "eyebrow": "Cabaña al Bosque · domingo, 28 jun",
+  "cta": "Reservá → link en bio"
 }

@@ -4,8 +4,8 @@
 
 1. Descargá **Instagram** en el celular o entrá a [instagram.com](https://www.instagram.com).
 2. Registrate con un email o número de teléfono.
-3. Elegí el nombre de usuario (sugerido): **`@cabanaalboscque`**
-   - Alternativas: `@cabana.al.bosque`, `@cabanaalboscque.bariloche`
+3. Elegí el nombre de usuario (sugerido): **`@cabanaalbosque`**
+   - Alternativas: `@cabana.al.bosque`, `@cabanaalbosque.bariloche`
 4. Tipo de cuenta: **Empresa** → categoría **Alojamiento / Casa de vacaciones**.
 
 ## 2. Configurar el perfil
@@ -13,7 +13,7 @@
 | Campo | Contenido |
 |-------|-----------|
 | **Nombre** | Cabaña al Bosque |
-| **Usuario** | cabanaalboscque |
+| **Usuario** | cabanaalbosque |
 | **Foto de perfil** | `instagram/profile-pic.svg` (exportar a PNG 320×320) |
 | **Link** | https://fertroya.github.io/cabana-al-bosque/ |
 | **Categoría** | Alojamiento |

@@ -63,17 +63,17 @@ export function buildDailyStoryHtml(story) {
       right: 60px;
       background: rgba(255,255,255,0.92);
       color: var(--teal);
-      font-size: 26px;
+      font-size: 24px;
       font-weight: 600;
       padding: 18px 28px;
       border-radius: 12px;
-      max-width: 420px;
+      max-width: 480px;
       text-align: right;
       line-height: 1.35;
     }
     .canvas .content {
       position: absolute;
-      left: 0; right: 0; bottom: 220px;
+      left: 0; right: 0; bottom: 300px;
       padding: 0 70px;
       color: var(--white);
     }

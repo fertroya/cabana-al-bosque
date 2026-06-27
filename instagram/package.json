@@ -7,6 +7,7 @@
     "daily-story": "node scripts/daily-story.mjs",
     "daily-story:dry": "node scripts/daily-story.mjs --dry-run",
     "daily-story:publish": "node scripts/daily-story.mjs --publish-only",
+    "daily-story:force": "node scripts/daily-story.mjs --force",
     "export": "node scripts/export-images.mjs",
     "profile": "node scripts/setup-profile.mjs",
     "publish": "node scripts/publish.mjs",

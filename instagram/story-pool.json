@@ -1,15 +1,17 @@
 {
   "generatedAt": "2026-06-27T13:34:02.212Z",
   "count": 48,
-  "note": "Pixieset bloqueado por Cloudflare; pool sincronizado desde galería local.",
+  "note": "Pool con theme/location por foto. Salamandra = gastronomia, spa/actividades/club separados.",
   "photos": [
     {
       "image": "galeria/hogar.jpg",
       "category": "casa",
       "caption": "Living",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Living",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "living"
       ]
     },
@@ -18,8 +20,10 @@
       "category": "casa",
       "caption": "Living con vista",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Living con vista",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "living"
       ]
     },
@@ -28,8 +32,10 @@
       "category": "casa",
       "caption": "Cocina",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Cocina",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "cocina"
       ]
     },
@@ -38,8 +44,10 @@
       "category": "casa",
       "caption": "Cocina equipada",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Cocina equipada",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "cocina"
       ]
     },
@@ -48,8 +56,10 @@
       "category": "casa",
       "caption": "Comedor",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Comedor",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "cocina"
       ]
     },
@@ -58,8 +68,10 @@
       "category": "casa",
       "caption": "Comedor y living",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Comedor y living",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "living",
         "cocina"
       ]
@@ -69,18 +81,20 @@
       "category": "casa",
       "caption": "Espacio compartido",
       "source": "galeria",
-      "tags": [
-        "casa",
-        "spa"
-      ]
+      "theme": "cabaña",
+      "displayTitle": "Espacio compartido",
+      "location": "cabaña",
+      "tags": []
     },
     {
       "image": "galeria/kingsize.jpg",
       "category": "casa",
       "caption": "Dormitorio principal",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Dormitorio principal",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "dormitorio"
       ]
     },
@@ -89,8 +103,10 @@
       "category": "casa",
       "caption": "Dormitorio infantil",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Dormitorio infantil",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "dormitorio"
       ]
     },
@@ -99,8 +115,10 @@
       "category": "casa",
       "caption": "Dormitorio",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Dormitorio",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "dormitorio"
       ]
     },
@@ -109,8 +127,10 @@
       "category": "casa",
       "caption": "Baño",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Baño",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "bano"
       ]
     },
@@ -119,8 +139,10 @@
       "category": "casa",
       "caption": "Baño con bañera",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Baño con bañera",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "bano"
       ]
     },
@@ -129,8 +151,10 @@
       "category": "casa",
       "caption": "Detalle de baño",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Detalle de baño",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "bano"
       ]
     },
@@ -139,8 +163,10 @@
       "category": "casa",
       "caption": "Escritorio",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Escritorio",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "workation"
       ]
     },
@@ -149,8 +175,10 @@
       "category": "casa",
       "caption": "Rincón de lectura",
       "source": "galeria",
+      "theme": "cabaña",
+      "displayTitle": "Rincón de lectura",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "workation"
       ]
     },
@@ -159,24 +187,29 @@
       "category": "casa",
       "caption": "Detalle interior",
       "source": "galeria",
-      "tags": [
-        "casa"
-      ]
+      "theme": "cabaña",
+      "displayTitle": "Detalle interior",
+      "location": "cabaña",
+      "tags": []
     },
     {
       "image": "galeria/img-9285.jpg",
       "category": "casa",
       "caption": "Detalle interior",
       "source": "galeria",
-      "tags": [
-        "casa"
-      ]
+      "theme": "cabaña",
+      "displayTitle": "Detalle interior",
+      "location": "cabaña",
+      "tags": []
     },
     {
       "image": "galeria/denoche-5889.jpg",
       "category": "noche",
       "caption": "Fachada de noche",
       "source": "galeria",
+      "theme": "noche",
+      "displayTitle": "Fachada de noche",
+      "location": "cabaña",
       "tags": [
         "noche"
       ]
@@ -186,6 +219,9 @@
       "category": "noche",
       "caption": "Iluminación nocturna",
       "source": "galeria",
+      "theme": "noche",
+      "displayTitle": "Iluminación nocturna",
+      "location": "cabaña",
       "tags": [
         "noche"
       ]
@@ -195,6 +231,9 @@
       "category": "noche",
       "caption": "Cabaña al anochecer",
       "source": "galeria",
+      "theme": "noche",
+      "displayTitle": "Cabaña al anochecer",
+      "location": "cabaña",
       "tags": [
         "noche"
       ]
@@ -204,6 +243,9 @@
       "category": "noche",
       "caption": "Noche en el bosque",
       "source": "galeria",
+      "theme": "noche",
+      "displayTitle": "Noche en el bosque",
+      "location": "cabaña",
       "tags": [
         "noche",
         "exterior"
@@ -214,6 +256,9 @@
       "category": "noche",
       "caption": "Ambiente nocturno",
       "source": "galeria",
+      "theme": "noche",
+      "displayTitle": "Ambiente nocturno",
+      "location": "cabaña",
       "tags": [
         "noche"
       ]
@@ -223,6 +268,9 @@
       "category": "exterior",
       "caption": "Cabaña al Bosque",
       "source": "galeria",
+      "theme": "exterior",
+      "displayTitle": "Cabaña al Bosque",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -232,6 +280,9 @@
       "category": "exterior",
       "caption": "Jardín y entorno",
       "source": "galeria",
+      "theme": "exterior",
+      "displayTitle": "Jardín y entorno",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -241,9 +292,11 @@
       "category": "exterior",
       "caption": "Espacios exteriores",
       "source": "galeria",
+      "theme": "exterior",
+      "displayTitle": "Espacios exteriores",
+      "location": "cabaña",
       "tags": [
-        "exterior",
-        "spa"
+        "exterior"
       ]
     },
     {
@@ -251,6 +304,9 @@
       "category": "exterior",
       "caption": "Patio y parrilla",
       "source": "galeria",
+      "theme": "exterior",
+      "displayTitle": "Patio y parrilla",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -260,6 +316,9 @@
       "category": "exterior",
       "caption": "Exterior",
       "source": "galeria",
+      "theme": "exterior",
+      "displayTitle": "Exterior",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -269,6 +328,9 @@
       "category": "exterior",
       "caption": "Entorno natural",
       "source": "galeria",
+      "theme": "exterior",
+      "displayTitle": "Entorno natural",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -278,6 +340,9 @@
       "category": "exterior",
       "caption": "Bosque y cabaña",
       "source": "galeria",
+      "theme": "exterior",
+      "displayTitle": "Bosque y cabaña",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -287,6 +352,9 @@
       "category": "exterior",
       "caption": "Vista exterior",
       "source": "galeria",
+      "theme": "exterior",
+      "displayTitle": "Vista exterior",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -296,26 +364,30 @@
       "category": "entorno",
       "caption": "Club House",
       "source": "entorno",
-      "tags": [
-        "entorno"
-      ]
+      "theme": "club",
+      "displayTitle": "Club House Dos Valles",
+      "location": "dos-valles",
+      "tags": []
     },
     {
       "image": "entorno/dosvalles-invierno.jpg",
       "category": "entorno",
       "caption": "Alameda invernal",
       "source": "entorno",
-      "tags": [
-        "entorno"
-      ]
+      "theme": "club",
+      "displayTitle": "Dos Valles en invierno",
+      "location": "dos-valles",
+      "tags": []
     },
     {
       "image": "entorno/dosvalles-canchas.jpg",
       "category": "entorno",
       "caption": "Canchas deportivas",
       "source": "entorno",
+      "theme": "actividades",
+      "displayTitle": "Canchas deportivas",
+      "location": "dos-valles",
       "tags": [
-        "entorno",
         "actividades"
       ]
     },
@@ -324,8 +396,10 @@
       "category": "entorno",
       "caption": "Senderos y MTB",
       "source": "entorno",
+      "theme": "actividades",
+      "displayTitle": "Senderos y MTB",
+      "location": "dos-valles",
       "tags": [
-        "entorno",
         "actividades"
       ]
     },
@@ -334,9 +408,10 @@
       "category": "entorno",
       "caption": "Espacios verdes",
       "source": "entorno",
+      "theme": "actividades",
+      "displayTitle": "Espacios verdes",
+      "location": "dos-valles",
       "tags": [
-        "entorno",
-        "spa",
         "actividades"
       ]
     },
@@ -345,17 +420,20 @@
       "category": "entorno",
       "caption": "Acceso al barrio",
       "source": "entorno",
-      "tags": [
-        "entorno"
-      ]
+      "theme": "club",
+      "displayTitle": "Club de Campo Dos Valles",
+      "location": "dos-valles",
+      "tags": []
     },
     {
       "image": "entorno/spa-pileta.jpg",
       "category": "entorno",
       "caption": "Pileta climatizada",
       "source": "entorno",
+      "theme": "spa",
+      "displayTitle": "Pileta climatizada",
+      "location": "dos-valles",
       "tags": [
-        "entorno",
         "spa"
       ]
     },
@@ -364,8 +442,10 @@
       "category": "entorno",
       "caption": "Gimnasio",
       "source": "entorno",
+      "theme": "spa",
+      "displayTitle": "Gimnasio del club",
+      "location": "dos-valles",
       "tags": [
-        "entorno",
         "spa"
       ]
     },
@@ -374,28 +454,34 @@
       "category": "entorno",
       "caption": "Salón de relax",
       "source": "entorno",
+      "theme": "spa",
+      "displayTitle": "SPA y salón de relax",
+      "location": "dos-valles",
       "tags": [
-        "entorno",
         "spa"
       ]
     },
     {
       "image": "entorno/salamandra-interior.jpg",
       "category": "entorno",
-      "caption": "Salón principal",
+      "caption": "La Salamandra Pulpería",
       "source": "entorno",
+      "theme": "gastronomia",
+      "displayTitle": "La Salamandra Pulpería",
+      "location": "salamandra",
       "tags": [
-        "entorno",
         "gastronomia"
       ]
     },
     {
       "image": "entorno/salamandra-gastronomia.jpg",
       "category": "entorno",
-      "caption": "Gastronomía patagónica",
+      "caption": "Gastronomía en La Salamandra",
       "source": "entorno",
+      "theme": "gastronomia",
+      "displayTitle": "La Salamandra Pulpería",
+      "location": "salamandra",
       "tags": [
-        "entorno",
         "gastronomia"
       ]
     },
@@ -404,8 +490,10 @@
       "category": "casa",
       "caption": "Living con vista al bosque",
       "source": "casa",
+      "theme": "cabaña",
+      "displayTitle": "Living con vista al bosque",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "living",
         "exterior"
       ]
@@ -415,8 +503,10 @@
       "category": "casa",
       "caption": "Living hogareño",
       "source": "casa",
+      "theme": "cabaña",
+      "displayTitle": "Living hogareño",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "living"
       ]
     },
@@ -425,6 +515,9 @@
       "category": "exterior",
       "caption": "Jardín y bosque",
       "source": "casa",
+      "theme": "exterior",
+      "displayTitle": "Jardín y bosque",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -434,6 +527,9 @@
       "category": "exterior",
       "caption": "Parrilla y patio",
       "source": "casa",
+      "theme": "exterior",
+      "displayTitle": "Parrilla y patio",
+      "location": "cabaña",
       "tags": [
         "exterior"
       ]
@@ -443,6 +539,9 @@
       "category": "noche",
       "caption": "Cabaña de noche",
       "source": "casa",
+      "theme": "noche",
+      "displayTitle": "Cabaña de noche",
+      "location": "cabaña",
       "tags": [
         "noche"
       ]
@@ -452,8 +551,10 @@
       "category": "casa",
       "caption": "Cocina equipada",
       "source": "casa",
+      "theme": "cabaña",
+      "displayTitle": "Cocina equipada",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "cocina"
       ]
     },
@@ -462,8 +563,10 @@
       "category": "casa",
       "caption": "Comedor",
       "source": "casa",
+      "theme": "cabaña",
+      "displayTitle": "Comedor",
+      "location": "cabaña",
       "tags": [
-        "casa",
         "cocina"
       ]
     }
