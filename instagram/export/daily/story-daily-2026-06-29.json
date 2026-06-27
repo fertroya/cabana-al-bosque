@@ -1,0 +1,14 @@
+{
+  "id": "story-daily-2026-06-29",
+  "copySource": "ollama",
+  "mode": "plan-dia",
+  "usesWeather": true,
+  "photo": "galeria/img-2864.jpg",
+  "theme": "cabaña",
+  "weather": "7° máx · 1° mín · Nublado",
+  "weatherBadge": "lun, 29 jun · 7° máx · 1° mín · Nublado",
+  "title": "Picnic bajo los pinos",
+  "subtitle": "Con este cielo nublado y 7 grados, el patio invita a disfrutar un buen vino antes de refugiarse en la chimenea.",
+  "eyebrow": "Cabaña al Bosque · lunes 29 jun",
+  "cta": "Reservá → link en bio"
+}
