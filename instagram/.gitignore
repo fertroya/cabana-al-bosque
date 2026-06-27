@@ -1,0 +1,5 @@
+node_modules/
+.env
+.DS_Store
+export/_render.html
+export/daily/_daily-*.html

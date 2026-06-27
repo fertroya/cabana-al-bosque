@@ -1,0 +1,471 @@
+{
+  "generatedAt": "2026-06-27T09:57:30.472Z",
+  "count": 48,
+  "note": "Pixieset bloqueado por Cloudflare; pool sincronizado desde galería local.",
+  "photos": [
+    {
+      "image": "galeria/hogar.jpg",
+      "category": "casa",
+      "caption": "Living",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "living"
+      ]
+    },
+    {
+      "image": "galeria/hogar2.jpg",
+      "category": "casa",
+      "caption": "Living con vista",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "living"
+      ]
+    },
+    {
+      "image": "galeria/img-9312.jpg",
+      "category": "casa",
+      "caption": "Cocina",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "cocina"
+      ]
+    },
+    {
+      "image": "galeria/img-9313.jpg",
+      "category": "casa",
+      "caption": "Cocina equipada",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "cocina"
+      ]
+    },
+    {
+      "image": "galeria/img-9301.jpg",
+      "category": "casa",
+      "caption": "Comedor",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "cocina"
+      ]
+    },
+    {
+      "image": "galeria/img-9298.jpg",
+      "category": "casa",
+      "caption": "Comedor y living",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "living",
+        "cocina"
+      ]
+    },
+    {
+      "image": "galeria/img-9299.jpg",
+      "category": "casa",
+      "caption": "Espacio compartido",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "spa"
+      ]
+    },
+    {
+      "image": "galeria/kingsize.jpg",
+      "category": "casa",
+      "caption": "Dormitorio principal",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "dormitorio"
+      ]
+    },
+    {
+      "image": "galeria/cuarto-chicos.jpg",
+      "category": "casa",
+      "caption": "Dormitorio infantil",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "dormitorio"
+      ]
+    },
+    {
+      "image": "galeria/img-2864.jpg",
+      "category": "casa",
+      "caption": "Dormitorio",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "dormitorio"
+      ]
+    },
+    {
+      "image": "galeria/img-9290.jpg",
+      "category": "casa",
+      "caption": "Baño",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "bano"
+      ]
+    },
+    {
+      "image": "galeria/bano-tub.jpg",
+      "category": "casa",
+      "caption": "Baño con bañera",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "bano"
+      ]
+    },
+    {
+      "image": "galeria/img-9247.jpg",
+      "category": "casa",
+      "caption": "Detalle de baño",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "bano"
+      ]
+    },
+    {
+      "image": "galeria/img-3069.jpg",
+      "category": "casa",
+      "caption": "Escritorio",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "workation"
+      ]
+    },
+    {
+      "image": "galeria/img-9237.jpg",
+      "category": "casa",
+      "caption": "Rincón de lectura",
+      "source": "galeria",
+      "tags": [
+        "casa",
+        "workation"
+      ]
+    },
+    {
+      "image": "galeria/img-9257.jpg",
+      "category": "casa",
+      "caption": "Detalle interior",
+      "source": "galeria",
+      "tags": [
+        "casa"
+      ]
+    },
+    {
+      "image": "galeria/img-9285.jpg",
+      "category": "casa",
+      "caption": "Detalle interior",
+      "source": "galeria",
+      "tags": [
+        "casa"
+      ]
+    },
+    {
+      "image": "galeria/denoche-5889.jpg",
+      "category": "noche",
+      "caption": "Fachada de noche",
+      "source": "galeria",
+      "tags": [
+        "noche"
+      ]
+    },
+    {
+      "image": "galeria/denoche-7651.jpg",
+      "category": "noche",
+      "caption": "Iluminación nocturna",
+      "source": "galeria",
+      "tags": [
+        "noche"
+      ]
+    },
+    {
+      "image": "galeria/denoche-7851.jpg",
+      "category": "noche",
+      "caption": "Cabaña al anochecer",
+      "source": "galeria",
+      "tags": [
+        "noche"
+      ]
+    },
+    {
+      "image": "galeria/denoche-9273.jpg",
+      "category": "noche",
+      "caption": "Noche en el bosque",
+      "source": "galeria",
+      "tags": [
+        "noche",
+        "exterior"
+      ]
+    },
+    {
+      "image": "galeria/denoche-1.jpg",
+      "category": "noche",
+      "caption": "Ambiente nocturno",
+      "source": "galeria",
+      "tags": [
+        "noche"
+      ]
+    },
+    {
+      "image": "galeria/cover.jpg",
+      "category": "exterior",
+      "caption": "Cabaña al Bosque",
+      "source": "galeria",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "galeria/img-6957.jpg",
+      "category": "exterior",
+      "caption": "Jardín y entorno",
+      "source": "galeria",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "galeria/img-7173.jpg",
+      "category": "exterior",
+      "caption": "Espacios exteriores",
+      "source": "galeria",
+      "tags": [
+        "exterior",
+        "spa"
+      ]
+    },
+    {
+      "image": "galeria/img-2914.jpg",
+      "category": "exterior",
+      "caption": "Patio y parrilla",
+      "source": "galeria",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "galeria/img-037a.jpg",
+      "category": "exterior",
+      "caption": "Exterior",
+      "source": "galeria",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "galeria/img-08a3.jpg",
+      "category": "exterior",
+      "caption": "Entorno natural",
+      "source": "galeria",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "galeria/img-0048.jpg",
+      "category": "exterior",
+      "caption": "Bosque y cabaña",
+      "source": "galeria",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "galeria/img-b427.jpg",
+      "category": "exterior",
+      "caption": "Vista exterior",
+      "source": "galeria",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "entorno/dosvalles-clubhouse.jpg",
+      "category": "entorno",
+      "caption": "Club House",
+      "source": "entorno",
+      "tags": [
+        "entorno"
+      ]
+    },
+    {
+      "image": "entorno/dosvalles-invierno.jpg",
+      "category": "entorno",
+      "caption": "Alameda invernal",
+      "source": "entorno",
+      "tags": [
+        "entorno"
+      ]
+    },
+    {
+      "image": "entorno/dosvalles-canchas.jpg",
+      "category": "entorno",
+      "caption": "Canchas deportivas",
+      "source": "entorno",
+      "tags": [
+        "entorno",
+        "actividades"
+      ]
+    },
+    {
+      "image": "entorno/dosvalles-senderos.jpg",
+      "category": "entorno",
+      "caption": "Senderos y MTB",
+      "source": "entorno",
+      "tags": [
+        "entorno",
+        "actividades"
+      ]
+    },
+    {
+      "image": "entorno/dosvalles-espacios-verdes.jpg",
+      "category": "entorno",
+      "caption": "Espacios verdes",
+      "source": "entorno",
+      "tags": [
+        "entorno",
+        "spa",
+        "actividades"
+      ]
+    },
+    {
+      "image": "entorno/dosvalles-entrada.jpg",
+      "category": "entorno",
+      "caption": "Acceso al barrio",
+      "source": "entorno",
+      "tags": [
+        "entorno"
+      ]
+    },
+    {
+      "image": "entorno/spa-pileta.jpg",
+      "category": "entorno",
+      "caption": "Pileta climatizada",
+      "source": "entorno",
+      "tags": [
+        "entorno",
+        "spa"
+      ]
+    },
+    {
+      "image": "entorno/spa-gimnasio.jpg",
+      "category": "entorno",
+      "caption": "Gimnasio",
+      "source": "entorno",
+      "tags": [
+        "entorno",
+        "spa"
+      ]
+    },
+    {
+      "image": "entorno/spa-salon.jpg",
+      "category": "entorno",
+      "caption": "Salón de relax",
+      "source": "entorno",
+      "tags": [
+        "entorno",
+        "spa"
+      ]
+    },
+    {
+      "image": "entorno/salamandra-interior.jpg",
+      "category": "entorno",
+      "caption": "Salón principal",
+      "source": "entorno",
+      "tags": [
+        "entorno",
+        "gastronomia"
+      ]
+    },
+    {
+      "image": "entorno/salamandra-gastronomia.jpg",
+      "category": "entorno",
+      "caption": "Gastronomía patagónica",
+      "source": "entorno",
+      "tags": [
+        "entorno",
+        "gastronomia"
+      ]
+    },
+    {
+      "image": "living-vista-bosque.jpg",
+      "category": "casa",
+      "caption": "Living con vista al bosque",
+      "source": "casa",
+      "tags": [
+        "casa",
+        "living",
+        "exterior"
+      ]
+    },
+    {
+      "image": "living-hogar.jpg",
+      "category": "casa",
+      "caption": "Living hogareño",
+      "source": "casa",
+      "tags": [
+        "casa",
+        "living"
+      ]
+    },
+    {
+      "image": "exterior-jardin.jpg",
+      "category": "exterior",
+      "caption": "Jardín y bosque",
+      "source": "casa",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "exterior-asado.jpg",
+      "category": "exterior",
+      "caption": "Parrilla y patio",
+      "source": "casa",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "image": "exterior-noche.jpg",
+      "category": "noche",
+      "caption": "Cabaña de noche",
+      "source": "casa",
+      "tags": [
+        "noche"
+      ]
+    },
+    {
+      "image": "cocina.jpg",
+      "category": "casa",
+      "caption": "Cocina equipada",
+      "source": "casa",
+      "tags": [
+        "casa",
+        "cocina"
+      ]
+    },
+    {
+      "image": "comedor.jpg",
+      "category": "casa",
+      "caption": "Comedor",
+      "source": "casa",
+      "tags": [
+        "casa",
+        "cocina"
+      ]
+    }
+  ]
+}

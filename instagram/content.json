@@ -1,0 +1,97 @@
+{
+  "profile": {
+    "name": "Cabaña al Bosque",
+    "username": "cabanaalbosque",
+    "website": "https://fertroya.github.io/cabana-al-bosque/",
+    "profileImage": "profile-caricature.png",
+    "bio": "🏡 Cabaña en Club de Campo Dos Valles\n🌲 Bariloche · Seguridad 24hs · Pileta · Gimnasio\n⭐ 9,9 Booking · 4,71 Airbnb\n👨‍👩‍👧‍👦 Hasta 5 huéspedes · 2 dormitorios\n👇 Reservá o consultá"
+  },
+  "highlights": [
+    { "id": "highlight-casa", "label": "La Casa" },
+    { "id": "highlight-entorno", "label": "Entorno" },
+    { "id": "highlight-reservas", "label": "Reservas" },
+    { "id": "highlight-premio", "label": "Premio" }
+  ],
+  "posts": [
+    {
+      "id": "post-01-bienvenida",
+      "type": "photo-overlay",
+      "image": "living-vista-bosque.jpg",
+      "eyebrow": "Bienvenidos",
+      "title": "Sentite en casa, lejos de casa",
+      "subtitle": "Tu refugio en el bosque patagónico · Dos Valles, Bariloche",
+      "caption": "Sentite en casa, lejos de casa 🏡🌲\n\nNuestra cabaña en el corazón del bosque patagónico te espera en Club de Campo Dos Valles, Bariloche.\n\n✔️ Seguridad 24hs\n✔️ Pileta y gimnasio del barrio\n✔️ 2 dormitorios · hasta 5 huéspedes\n✔️ A 20 min de Cerro Catedral\n\n🔗 Link en bio para reservar\n📲 Consultas por WhatsApp\n\n#Bariloche #CabañaEnBariloche #Patagonia #AlojamientoBariloche #DosValles #TurismoBariloche #CabañaAlBosque #VacacionesEnFamilia",
+      "publish": true
+    },
+    {
+      "id": "post-02-premio",
+      "type": "award",
+      "caption": "🏆 Premio Traveller Review Awards 2026\n\nGracias a quienes nos eligieron y nos dejaron 9,9 sobre 10 en Booking.com. Cada detalle de nuestra casa está pensado para que disfrutes Bariloche con tranquilidad.\n\n¿Venís pronto? Reservá por el link en bio ✨\n\n#BookingCom #TravellerReviewAwards #Bariloche #AlojamientoPremium #CabañaAlBosque",
+      "publish": true
+    },
+    {
+      "id": "post-03-espacios",
+      "type": "photo-overlay",
+      "image": "living-hogar.jpg",
+      "eyebrow": "Espacios",
+      "title": "Conocé la casa",
+      "subtitle": "Living · Cocina · 2 dormitorios · Hasta 5 huéspedes",
+      "caption": "Conocé los espacios 🛋️🍳\n\nLiving luminoso, cocina completa, comedor acogedor y dormitorios listos para descansar después de un día en la montaña.\n\nIdeal para familias o escapadas en pareja. Mirá la galería completa en nuestro sitio 👆\n\n#InteriorDesign #CabañaPatagónica #Bariloche2026 #AlojamientoConEncanto",
+      "publish": true
+    },
+    {
+      "id": "post-04-entorno",
+      "type": "photo-overlay",
+      "image": "exterior-jardin.jpg",
+      "eyebrow": "Bariloche",
+      "title": "Naturaleza a un paso",
+      "subtitle": "Club de Campo Dos Valles · A 20 min de Cerro Catedral",
+      "caption": "Donde la naturaleza está a un paso 🌲⛰️\n\nClub de Campo Dos Valles: senderos, pileta, gimnasio, canchas y La Salamandra Pulpería. Invierno cerca del Cerro Catedral, verano cerca de los lagos.\n\n¿Qué temporada preferís?\n\n#Naturaleza #PatagoniaArgentina #DosValles #CerroCatedral #BarilocheInvierno #BarilocheVerano",
+      "publish": true
+    },
+    {
+      "id": "post-05-reserva",
+      "type": "solid-teal",
+      "badge": "Disponible",
+      "title": "Reservá tu estadía",
+      "subtitle": "Airbnb · WhatsApp · Link en bio\nCheck-in 15:00 · Check-out 10:00",
+      "caption": "¿Planeando tu viaje a Bariloche? 📅\n\nReservá directo en Airbnb o escribinos por WhatsApp para consultar fechas y disponibilidad.\n\nCheck-in: 15:00 hs · Check-out: 10:00 hs\nEstacionamiento incluido 🚗\n\nLink en bio 👇\n\n#ReserváBariloche #AirbnbBariloche #EscapadaPatagónica #CabañaAlBosque",
+      "publish": true
+    },
+    {
+      "id": "post-06-amenities",
+      "type": "features",
+      "title": "Lo que ofrecemos",
+      "features": [
+        "Pileta y gimnasio del barrio",
+        "Seguridad 24 horas",
+        "WiFi · Estacionamiento",
+        "Bosque y senderos"
+      ],
+      "caption": "Todo lo que necesitás para una estadía perfecta ✨\n\n🏊 Pileta del barrio\n💪 Gimnasio y canchas\n🛡️ Seguridad 24hs\n📶 WiFi para trabajar\n🌲 Bosque y senderos\n\nUn refugio pensado para desconectar y disfrutar.\n\n#Amenities #Workation #Familia #Bariloche",
+      "publish": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "story-01-lanzamiento",
+      "type": "story-photo",
+      "image": "exterior-noche.jpg",
+      "eyebrow": "Nuevo",
+      "title": "¡Ya estamos en Instagram!",
+      "subtitle": "Seguinos para ver la cabaña, el entorno y tips para tu viaje a Bariloche.",
+      "cta": "@cabanaalbosque",
+      "publish": true
+    },
+    {
+      "id": "story-02-reserva",
+      "type": "story-photo",
+      "image": "exterior-asado.jpg",
+      "eyebrow": "Reservá",
+      "title": "Tu refugio te espera",
+      "subtitle": "2 dormitorios · Hasta 5 huéspedes · Dos Valles",
+      "cta": "Link en bio →",
+      "publish": true
+    }
+  ]
+}

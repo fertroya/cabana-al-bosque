@@ -1,0 +1,24 @@
+{
+  "name": "cabana-al-bosque-instagram",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync-pool": "node scripts/sync-story-pool.mjs",
+    "daily-story": "node scripts/daily-story.mjs",
+    "daily-story:dry": "node scripts/daily-story.mjs --dry-run",
+    "daily-story:publish": "node scripts/daily-story.mjs --publish-only",
+    "export": "node scripts/export-images.mjs",
+    "profile": "node scripts/setup-profile.mjs",
+    "publish": "node scripts/publish.mjs",
+    "publish:dry": "node scripts/publish.mjs --dry-run",
+    "discover-id": "node scripts/discover-instagram-id.mjs",
+    "launch": "node scripts/launch.mjs",
+    "launch:publish": "node scripts/launch.mjs --publish"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "playwright": "^1.51.0"
+  }
+}
